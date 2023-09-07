@@ -4,12 +4,12 @@
     "slug": "ServerTranqui_beta1",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "assets/images/tranqui_w.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FF5235"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "assets/images/tranqui_w.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kahuaski.ServerTranqui_beta1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "04a101ee-43d6-4aca-9afd-914289b72b35"
+      }
     }
   }
 }
